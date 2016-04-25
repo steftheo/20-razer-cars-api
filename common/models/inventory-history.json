@@ -1,0 +1,26 @@
+{
+  "name": "inventory-history",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "checkOut": {
+      "type": "date"
+    },
+    "checkIn": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "car-type": {
+      "type": "belongsTo",
+      "model": "car-type",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

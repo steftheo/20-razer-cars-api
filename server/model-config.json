@@ -35,5 +35,25 @@
   "end-user": {
     "dataSource": "db",
     "public": true
+  },
+  "user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "inventory-history": {
+    "dataSource": "db",
+    "public": true
+  },
+  "checkOut": {
+    "dataSource": "db",
+    "public": true
+  },
+  "inventory": {
+    "dataSource": "db",
+    "public": true
+  },
+  "car-type": {
+    "dataSource": "db",
+    "public": true
   }
 }

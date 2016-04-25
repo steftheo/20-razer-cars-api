@@ -1,0 +1,32 @@
+{
+  "name": "car-type",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "year": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "modelName": {
+      "type": "string"
+    },
+    "totalInventory": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "inventories": {
+      "type": "hasMany",
+      "model": "inventory",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
